@@ -1,0 +1,26 @@
+package com.ir.util;
+
+public class Constants {
+
+	public static final String otherGraphPath = "/Users/kaichenzhang/Documents/CS6200/HW4/wt2g_inlinks.txt";
+//	public static final String otherGraphPath = "/Users/kaichenzhang/Documents/CS6200/HW4/Crawled/in_links_crawled.txt";
+	public static final String query = "cold war";
+	public static final String cluster_name = "homework3";
+	public static final String index_name = "homework3";
+	public static final String document_type = "VerticalSearch";
+	
+	// When the inLinks count is > 50, we take a d number of inLinks
+	public static final int d = 50;
+	
+	public static final String hub = "/Users/kaichenzhang/Desktop/hub.txt";
+	public static final String authority = "/Users/kaichenzhang/Desktop/authority.txt";
+	public static final String pageRank = "/Users/kaichenzhang/Desktop/pageRank.txt";
+	public static final String newline_ = System.getProperty("line.separator");
+
+	public static final String link_inLink_ = "/Users/kaichenzhang/Documents/CS6200/HW4/Crawled/in_links_crawled.txt";
+	public static final String link_outLink_ = "/Users/kaichenzhang/Documents/CS6200/HW4/Crawled/out_links_crawled.txt";	
+	public static final String top1000Link_ = "/Users/kaichenzhang/Documents/CS6200/HW4/Crawled/toplinks.txt";	
+//	public static final String link_inLink_ = "/Users/kaichenzhang/Documents/CS6200/HW4/New_Crawled/in_links_crawled.txt";
+//	public static final String link_outLink_ = "/Users/kaichenzhang/Documents/CS6200/HW4/New_Crawled/out_links_crawled.txt";	
+//	public static final String top1000Link_ = "/Users/kaichenzhang/Documents/CS6200/HW4/New_Crawled/toplinks.txt";	
+}
